@@ -82,3 +82,9 @@ providers:
 - https://kubernetes.io/docs/tasks/administer-cluster/kubelet-credential-provider/
 - https://kubernetes.io/blog/2022/12/22/kubelet-credential-providers/
 - https://kubernetes.io/docs/reference/config-api/kubelet-credentialprovider.v1/
+
+## Build a binary
+
+```
+pyinstaller --onefile ./src/gcp-credential-provider
+```
