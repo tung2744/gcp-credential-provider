@@ -69,8 +69,12 @@ providers:
 #   - -v
 #   - --log-file=/tmp/cred.log
   env:
-    - name: GOOGLE_APPLICATION_CREDENTIALS
-      value: /credential/path
+    - name: GOOGLE_PROJECT_NUMBER
+      value: ""
+    - name: GOOGLE_PROVIDER_POOL_ID
+      value: ""
+    - name: GOOGLE_PROVIDER_ID
+      value: ""
 ```
 
 
