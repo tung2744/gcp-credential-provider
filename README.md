@@ -15,7 +15,7 @@ Every node in the cluster needs that steps in order to pull the container images
 This helper is used to generate container registry credentials without gcloud framework
 
 ```bash
-VERSION=2.1.8
+VERSION=2.1.30
 OS=linux
 ARCH=amd64
 curl -fsSL "https://github.com/GoogleCloudPlatform/docker-credential-gcr/releases/download/v${VERSION}/docker-credential-gcr_${OS}_${ARCH}-${VERSION}.tar.gz" \
