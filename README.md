@@ -83,8 +83,10 @@ providers:
 - https://kubernetes.io/blog/2022/12/22/kubelet-credential-providers/
 - https://kubernetes.io/docs/reference/config-api/kubelet-credentialprovider.v1/
 
-## Build a binary
 
-```
-pyinstaller --onefile ./src/gcp-credential-provider
+### Build a linux amd64 binary
+
+
+```sh
+make build-binary
 ```
